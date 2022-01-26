@@ -1,0 +1,221 @@
+ *{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+  }
+
+ .flex {
+    display: flex;
+}
+
+.container {
+    width: 100vw;
+}
+
+header {
+  justify-content: space-between;
+  background-color: white;
+}
+
+.container-banner {
+    background-image:url(https://www.psdgraphics.com/file/2018/bright-light-rays-background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 60vh;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.left-side {
+    justify-content: space-between;
+    align-items: flex-start;
+    margin: 15px;
+    
+}
+
+.right-side {
+  display: flex;
+  align-items: center;
+  margin: 15px;
+}
+
+.left-side-intro-margin {
+  margin-bottom: 15px;
+}
+
+.btn {
+    background-color: #8462fa;
+    color: white;
+    padding: 10px 30px;
+    border-radius: 30px;
+    text-transform: uppercase;
+    border: none;
+}
+
+.bottom-icons {
+  color: rgb(177, 177, 177);
+  display: flex;
+  margin: 15px;
+}
+
+.section-about-me {
+  background-color: white;
+}
+
+h2 {
+  margin: 30px;
+  text-align: center;
+}
+
+h4 {
+  margin: 0px 15px;
+}
+
+.p-a-m {
+  margin: 30px 15px;
+}
+
+.social-contact {
+  margin: 15px ;
+}
+
+.bottom-icons {
+  font-size: 26px;
+  width: 40%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.container-service, .image-work {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.service-row {
+  justify-content: center;
+}
+
+.service-boxes {
+  border: 1px solid black;
+  border-radius: 5px;
+  margin: 15px;
+  padding: 10px;
+  background-color: white;
+  text-align: center;
+}
+
+progress {
+  width: 100%;
+}
+
+.progress {
+  flex-direction: column;
+  margin: 0px 15px;
+}
+
+.progress-top {
+  display: flex;
+  justify-content: space-between;
+}
+
+.font-aw-service {
+  color: #8462fa;
+  padding-bottom: 25px;
+}
+
+.service-boxes p {
+  padding: 25px 0;
+  line-height: 1.5;
+
+}
+
+.section-service p {
+  margin-left: 15px;
+}
+
+.container-project {
+  background-color: #8462fa;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.container-project h2 {
+  color: white;
+  padding-top: 35px;
+  padding-bottom: 10px;
+}
+
+.container-project p {
+  margin: 0 15px;
+  text-align: justify;
+}
+
+.btn-download {
+  background-color: white;
+  color: #8462fa;
+  padding: 10px 30px;
+  border-radius: 30px;
+  border: 1px solid white;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  
+}
+
+.btn-hire {
+  background-color: #8462fa;
+  color: white;
+  padding: 10px 30px;
+  border-radius: 30px;
+  border: 1px solid white;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.project-button {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 50px 0px;
+}
+
+.container-image h2 {
+  text-align: start;
+  margin-left: 15px;
+}
+
+.container-image p {
+  margin: 0 15px;
+  padding-bottom: 25px;
+}
+
+.container-image button {
+  margin-top: 25px;
+}
+
+.container-pricing p {
+  margin: 0 15px;
+  padding-bottom: 25px;
+}
+
+.pricing-card {
+  margin: 0 15px;
+  border: 1px solid black;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.pricing-card h5 {
+  height: 60px;
+  background-color: #8462fa;
+  color: white;
+  font-size: 20px;
+  padding-top: 15px;
+  width: auto;
+
+
+}
